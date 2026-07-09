@@ -1,0 +1,50 @@
+Date,CustomerID,CustomerName,Category,Product,Quantity,Price
+2025-01-05,C001,John,Electronics,Laptop,1,60000
+2025-01-08,C002,Alice,Furniture,Chair,2,2500
+2025-01-15,C003,David,Electronics,Phone,1,30000
+2025-01-22,C004,Emma,Accessories,Mouse,3,700
+2025-02-02,C005,Chris,Electronics,Monitor,1,15000
+2025-02-10,C006,Raj,Furniture,Table,1,7000
+2025-02-18,C007,Priya,Accessories,Keyboard,2,1200
+2025-02-25,C008,Arun,Electronics,Headphones,2,2500
+2025-03-04,C009,Nisha,Furniture,Sofa,1,25000
+2025-03-11,C010,Karan,Accessories,USB Cable,5,300
+2025-03-19,C001,John,Electronics,Tablet,1,25000
+2025-03-28,C002,Alice,Furniture,Bookshelf,1,12000
+2025-04-06,C003,David,Accessories,Mouse Pad,2,500
+2025-04-15,C004,Emma,Electronics,Smartwatch,1,18000
+2025-04-21,C005,Chris,Furniture,Bed,1,35000
+2025-04-30,C006,Raj,Accessories,Webcam,1,3200
+2025-05-08,C007,Priya,Electronics,Laptop,1,65000
+2025-05-14,C008,Arun,Furniture,Wardrobe,1,28000
+2025-05-20,C009,Nisha,Accessories,SSD,2,4500
+2025-05-29,C010,Karan,Electronics,Printer,1,12000
+2025-06-05,C001,John,Furniture,Dining Table,1,22000
+2025-06-12,C002,Alice,Accessories,External HDD,1,5500
+2025-06-18,C003,David,Electronics,Camera,1,45000
+2025-06-25,C004,Emma,Furniture,Office Chair,2,6500
+2025-07-03,C005,Chris,Accessories,Speakers,2,3500
+2025-07-10,C006,Raj,Electronics,Phone,1,35000
+2025-07-18,C007,Priya,Furniture,Cupboard,1,18000
+2025-07-24,C008,Arun,Accessories,Router,1,2800
+2025-08-02,C009,Nisha,Electronics,TV,1,50000
+2025-08-11,C010,Karan,Furniture,Coffee Table,1,8000
+2025-08-18,C001,John,Accessories,Pen Drive,4,800
+2025-08-26,C002,Alice,Electronics,Monitor,2,16000
+2025-09-04,C003,David,Furniture,Shoe Rack,1,5000
+2025-09-10,C004,Emma,Accessories,Power Bank,2,1800
+2025-09-18,C005,Chris,Electronics,Tablet,1,28000
+2025-09-26,C006,Raj,Furniture,Recliner,1,32000
+2025-10-03,C007,Priya,Accessories,Wireless Mouse,2,1200
+2025-10-11,C008,Arun,Electronics,Laptop,1,70000
+2025-10-18,C009,Nisha,Furniture,Study Table,1,10000
+2025-10-27,C010,Karan,Accessories,Keyboard,1,1500
+2025-11-05,C001,John,Electronics,Smartphone,1,40000
+2025-11-12,C002,Alice,Furniture,Bunk Bed,1,30000
+2025-11-19,C003,David,Accessories,Microphone,1,5000
+2025-11-27,C004,Emma,Electronics,Projector,1,55000
+2025-12-04,C005,Chris,Furniture,TV Stand,1,9000
+2025-12-11,C006,Raj,Accessories,Printer Ink,3,900
+2025-12-18,C007,Priya,Electronics,Smart TV,1,65000
+2025-12-24,C008,Arun,Furniture,Bookshelf,2,7000
+2025-12-30,C009,Nisha,Accessories,HDMI Cable,5,600

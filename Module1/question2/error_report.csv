@@ -1,0 +1,9 @@
+Module,Level,Count
+Authentication,ERROR,1
+Authentication,WARNING,1
+Database,ERROR,2
+Database,WARNING,1
+Inventory,ERROR,1
+Inventory,WARNING,1
+Payment,ERROR,2
+Payment,WARNING,1
