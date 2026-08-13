@@ -18,18 +18,16 @@ from tensorflow.keras.layers import (
 )
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
-# ============================================
 # Load Dataset
-# ============================================
 
 dataset_path = "screw"
 
 images = []
 labels = []
 
-# --------------------------------------------
+
 # Load GOOD training images
-# --------------------------------------------
+
 
 train_good = os.path.join(dataset_path, "train", "good")
 
@@ -50,10 +48,7 @@ for image_name in os.listdir(train_good):
 
     labels.append(0)          # Good
 
-
-# --------------------------------------------
 # Load Test Images
-# --------------------------------------------
 
 test_path = os.path.join(dataset_path, "test")
 
@@ -84,10 +79,7 @@ for folder in os.listdir(test_path):
         else:
             labels.append(1)
 
-
-# ============================================
 # Convert to NumPy Arrays
-# ============================================
 
 images = np.array(images)
 
@@ -97,9 +89,7 @@ print("Total Images :", len(images))
 print("Image Shape  :", images.shape)
 print("Labels Shape :", labels.shape)
 
-# ============================================
 # Train/Test Split
-# ============================================
 
 X_train, X_test, y_train, y_test = train_test_split(
     images,
@@ -112,16 +102,12 @@ X_train, X_test, y_train, y_test = train_test_split(
 print("\nTraining Images :", len(X_train))
 print("Testing Images  :", len(X_test))
 
-# ============================================
 # One-Hot Encoding
-# ============================================
 
 y_train = to_categorical(y_train, 2)
 y_test = to_categorical(y_test, 2)
 
-# ============================================
 # Data Augmentation
-# ============================================
 
 datagen = ImageDataGenerator(
     rotation_range=20,
@@ -131,9 +117,7 @@ datagen = ImageDataGenerator(
 
 datagen.fit(X_train)
 
-# ============================================
 # Build CNN Model
-# ============================================
 
 model = Sequential([
 
@@ -171,9 +155,7 @@ model = Sequential([
 
 ])
 
-# ============================================
 # Compile Model
-# ============================================
 
 model.compile(
 
@@ -189,9 +171,7 @@ print("\nModel Summary\n")
 
 model.summary()
 
-# ============================================
 # Train Model
-# ============================================
 
 history = model.fit(
 
@@ -207,9 +187,7 @@ history = model.fit(
 
 )
 
-# ============================================
 # Evaluate
-# ============================================
 
 loss, accuracy = model.evaluate(
     X_test,
@@ -218,17 +196,12 @@ loss, accuracy = model.evaluate(
 
 print(f"\nTest Accuracy : {accuracy:.4f}")
 
-# ============================================
 # Save Model
-# ============================================
-
 model.save("model.keras")
 
 print("\nModel saved successfully!")
 
-# ============================================
 # Plot Accuracy
-# ============================================
 
 plt.figure(figsize=(8,5))
 
